@@ -1,10 +1,11 @@
 import RecipeCard from "./RecipeCard"
 
 interface Recipe {
-  id: number
+  id: string
   name: string
   cuisine: string
-  prepTime: string
+  category: string
+  image: string
 }
 
 interface RecipeListProps {
